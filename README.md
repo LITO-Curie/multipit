@@ -5,9 +5,7 @@
 
 This repository provides a set of Python tools to perform multimodal learning with tabular data. It contains the code used in our study: 
 
-"Integration of clinical, pathological, radiological, and transcriptomic data improves the prediction of first-line immunotherapy outcome in metastatic non-small cell lung cancer"
-
-**Preprint:** https://doi.org/10.1101/2024.06.27.24309583
+[Captier, N., Lerousseau, M., Orlhac, F. et al. Integration of clinical, pathological, radiological, and transcriptomic data improves prediction for first-line immunotherapy outcome in metastatic non-small cell lung cancer. Nat Commun 16, 614 (2025).](https://doi.org/10.1038/s41467-025-55847-5)
 
 ## Installation
 ### Dependencies
@@ -67,6 +65,15 @@ In the [examples](examples) folder we provide a brief example on how to slightly
 We simply updated the `PredictionTask` class in a new file [_init_scripts_tcga.py](examples/tcga_lung/_init_scripts_tcga.py) to load TGCA data and build predictive pipelines.
 
 **Note:** clinical and transcriptomic data extracted for 201 stage III/IV TCGA patients (i.e., LUAD or LUSC) are available in the [data](data) folder.
+
+## Citing multipit
+
+If you use multipit in a scientific publication, we would appreciate citation to the [following paper](https://doi.org/10.1038/s41467-025-55847-5):
+
+```
+Captier, N., Lerousseau, M., Orlhac, F. et al. Integration of clinical, pathological, radiological, and transcriptomic data improves prediction for first-line immunotherapy outcome in metastatic non-small cell lung cancer. Nat Commun 16, 614 (2025). https://doi.org/10.1038/s41467-025-55847-5
+```
+
 ## Acknowledgements
 
 This repository was created as part of the PhD project of [Nicolas Captier](https://ncaptier.github.io/) in the [Computational Systems Biology of Cancer group](https://institut-curie.org/team/barillot) and the [Laboratory of Translational Imaging in Oncology (LITO)](https://www.lito-web.fr/en/) of Institut Curie.
